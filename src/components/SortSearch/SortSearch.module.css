@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sortsFind select {
+  border: 1px solid #3d3d3d;
+  border-radius: 500px;
+  padding: 5px 40px 5px 10px;
+  background-image: url(./img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 162px center;
+  appearance: none;
+  font-size: 15px;
+}
+.sortsFind input {
+  width: 300px;
+  border-radius: 200px;
+  border: 1px solid #3d3d3d;
+  padding: 5px 15px;
+  background-image: url("/img/Search.svg");
+  background-repeat: no-repeat;
+  background-position: 260px center;
+}
+.sortsFind input::placeholder {
+  font-size: 15px;
+  color: #3d3d3d;
+}
+@media (max-width: 769px) {
+  .sortsFind {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .sortsFind input {
+    max-width: 220px;
+    background-image: none;
+  }
+
+  .sortsFind select {
+    max-width: 200px;
+  }
+}

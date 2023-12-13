@@ -1,0 +1,73 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+* {
+  box-sizing: border-box;
+}
+:focus,
+:active,
+a:focus,
+a:active {
+  outline: none;
+}
+
+html,
+body {
+  font-size: 100%;
+  line-height: 1;
+}
+button {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+/*--------------------------------------*/
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #3d3d3d;
+}
+
+.container {
+  padding-top: 15px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.right_side {
+  padding-left: 50px;
+  width: 100%;
+}
+
+.items {
+  padding-top: 20px;
+  display: flex;
+  column-gap: 70px;
+  flex-wrap: wrap;
+}
+
+.withoutItems {
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.withoutItems p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .right_side {
+    padding-left: 5px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,52 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  background-color: #fbfbfb;
+  padding: 10px 15px;
+  min-width: 150px;
+  height: 100%;
+}
+
+.categories ul,
+.colors ul {
+  padding-left: 15px;
+}
+.categories ul li,
+.colors ul li,
+.priceRange {
+  padding: 5px 0;
+}
+.title {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 800;
+}
+.colors ul li,
+.categories ul li {
+  display: flex;
+  align-items: flex-end;
+}
+.colors ul li span,
+.categories ul li span {
+  padding-left: 3px;
+}
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  appearance: none;
+  border: 1px solid #46a358;
+}
+input[type="checkbox"]:checked {
+  background-color: #000;
+}
+
+.priceRange input {
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+  background-color: #fbfbfb;
+  max-width: 50px;
+  border-bottom: 1px solid #46a358;
+  color: #46a358;
+}
